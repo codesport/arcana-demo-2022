@@ -10,7 +10,7 @@ Instead of an "us-against-them" approach, Arcana leverages the simplicity of cen
  
 Arcana was founded in May 2019 by Abhishek Chaudhary, Aravindh Kumar, Mayur Relekar.
 
-## About This Working Demo: Arcana's Blockchain-based File Storage Demo Application
+## About This Working Demo: Arcana's Blockchain-based File Storage App
 
 This application deploys Arcana's SDK demo app. It abtracts away the complexity of wrestling with public-private key pairs by allowing non-technical end-users to authenticate and use the app by means of common OAUTH user profiles.  OAUTH integration includes Google, Discord, Twitch, and others!
 
