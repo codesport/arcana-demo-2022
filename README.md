@@ -21,10 +21,10 @@ Specifically, this app demonstrates the following functionalities and use-cases 
 
 This demo runs on node 16.3+. To deploy and test, do the following:
 
-1. Clone
+1. Clone:
 `git clone git@github.com:codesport/arcana-demo-2022.git`
 
-2. Install
+2. Install:
 `npm install`
 
 3. Run:
