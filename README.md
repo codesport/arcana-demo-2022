@@ -1,4 +1,6 @@
-# Overview: Who is Arcana 
+# Overview: Who is Arcana? 
+
+> The Storage and Privacy Stack for Ethereum dApps
 
 [Arcana](https://arcana.network/) offers a decentralized, blockchain-based alternative to online file storage services.  Arcana may be viewed as a blockchain based analog to Dropbox, Google Drive, Microsofts' OneDrive and similair services. 
 
@@ -10,7 +12,7 @@ Arcana was founded in May 2019 by Abhishek Chaudhary, Aravindh Kumar, Mayur Rele
 
 ## About This Working Demo: Arcana's Blockchain-based File Storage Demo Application
 
-This application deploys Arcana's SDK demo app. It abtracts away the complexity of wrestling with public-private key pairs by allowing non-technical end-users to authenticate and use the app by means of common OAUTH user profiles.  OAUTH intergtion includes Google, Discord, Twitch, and others!
+This application deploys Arcana's SDK demo app. It abtracts away the complexity of wrestling with public-private key pairs by allowing non-technical end-users to authenticate and use the app by means of common OAUTH user profiles.  OAUTH integration includes Google, Discord, Twitch, and others!
 
 Specifically, this app demonstrates the following functionalities and use-cases addresed by Arcana:
 
