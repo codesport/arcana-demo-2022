@@ -1,52 +1,20 @@
-# SDK Demo
+# Overview: Arcana Blockchain Based File Storage Demo Application
 
-This is a simple app for integrating and testing Arcana's login and storage SDKs.
-Use this app to implement and test SSO (Oauth) based login and file based transactions like upload, download, delete and share
+[Arcana](https://arcana.network/) offers a decentralized, blockchain-based alternative to online file storage services.  Arcana may be viewed as a blockchain based analog to Dropbox, Google Drive, Microsofts' OneDrive and similair services. 
 
-## Quick Start
+Arcana's mission is to build and enduser friendly privacy and storage layer for Ethereum and EVM compatible blockchains (e.g., Ethereum, Plogygon, and Binance).
 
-- Prerequisites:
+Instead of an "us-against-them" approach, Arcana leverages the simplicity of centralized services provider's login mechanisms through OAUTH, while generating Ethereum Virtual Machine based, public-private keypairs behind the scenes.
+ 
+Arcana was founded in May 2019 by Abhishek Chaudhary, Aravindh Kumar, Mayur Relekar.
 
-  - You'll need an up to date LTS versions of **`node.js`** and **`npm`** installed in your system for this code to work.
-  - You'll need a smart contract address. Get one at https://developer.arcana.network by creating an app.
-  - You'll need client id of one of the following for login: Google, Twitch, Discord, Reddit, GitHub. You'll need to add this client id in the app that you created in [Arcana's Developer Dashboard](https://developer.arcana.network)
+## About This Demo
 
-- Clone this repo
+This application deploys Arcana's SDK demo app. It abtracts away the complexity of wrestling with public-private key pairs by allowing non-technical end-users to authenticate and use the app by means of common OAUTH user profiles.  OAUTH intergtion includes Google, Discord, Twitch, and others!
 
-```bash
-git clone <repo-url>
-```
+Specifically, this app demonstrates the following functionalities and use-cases addresed by Arcana:
 
-- Install dependencies
-
-```bash
-npm install
-```
-
-- To run the project in development environment
-
-```bash
-npm run dev
-```
-
-- To build the project for production (to generate static files for hosting)
-
-```bash
-npm run build
-```
-
-### Dependencies
-
-This project is built using [Vue 3](https://v3.vuejs.org/guide/introduction.html) and uses [Vite.js](https://vitejs.dev/guide/) for generating builds
-
-Other than that, these project uses following dependencies
-
-- [Vue Router](https://next.router.vuejs.org/)
-- [Vuex](https://next.vuex.vuejs.org/)
-- [Tailwind CSS](https://tailwindcss.com/) and [PostCSS](https://postcss.org/)
-- [Heroicons](https://heroicons.com/)
-- [NaiveUI](https://www.naiveui.com/en-US/os-theme/components/tooltip) for tooltips
-- [Vue DK Toast](https://www.npmjs.com/package/vue-dk-toast) for displaying toast messages
-- [file-saver](https://www.npmjs.com/package/file-saver) to create and download files locally
-- [moment](https://www.npmjs.com/package/moment) for formatting date and time
-- [bytes](https://www.npmjs.com/package/bytes) for formatting bytes to human readable values
+* Identity and Access Management
+* Decentralised Storage
+* End-to-End Encryption
+* Non-custodial Key Management
